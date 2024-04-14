@@ -166,3 +166,44 @@ a {
     border: none;
     margin-top: 10px;
 }
+
+.advantages {
+    height: 686px;
+    padding: 180px 0;
+
+}
+
+.advantages__listitem {
+    list-style-type: none;
+    display: flex;
+    margin: 0 auto 0 auto;
+    width: 1394px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.advantages__item {
+    width: 326px;
+    height: 326px;
+    background-color: #F8F8F8;
+    box-shadow: 10px 20px 30px lightgray;
+    text-align: center;
+    padding: 30px 36px 0px 36px;
+}
+
+.advantages__img {
+    display: block;
+    height: 100px;
+    width: 100px;
+    object-fit: cover;
+    margin: 0 auto;
+}
+
+
+.advantages__title {
+    margin-top: 24px;
+}
+
+.advantages__descr {
+    margin-top: 20px;
+}
