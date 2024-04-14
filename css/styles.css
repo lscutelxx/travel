@@ -199,11 +199,76 @@ a {
     margin: 0 auto;
 }
 
-
 .advantages__title {
     margin-top: 24px;
 }
 
 .advantages__descr {
     margin-top: 20px;
+}
+
+.destinations {
+    padding: 90px 0;
+    position: relative;
+    min-height: 580px;
+}
+
+.destinations__block {
+    position: absolute;
+    height: 580px;
+    width: 789px;
+    background-color: #F6F6F6;
+    right: 0;
+    top: 0;
+}
+
+.destinations__wrapper {
+    display: flex;
+    align-items: center;
+}
+
+.destinations__text {
+    width: 420px;
+    margin-right: 75px;
+}
+
+.destinations__descr {
+    margin-top: 40px;
+}
+
+.destinations__btn {
+    margin-top: 60px; 
+}
+
+.destinations__listitem {
+    list-style-type: none;
+    display: flex;
+    gap: 30px;
+}
+
+.destinations__item {
+    width: 330px;
+    height: 400px;
+    z-index: 1;
+    position: relative;
+    
+}
+
+.cuba {
+    background: linear-gradient(transparent, 90%, black), url('/img/cuba_bg.png') center / cover no-repeat, linear-gradient(to bottom, transparent, black);
+}
+
+.paris {
+    background: linear-gradient(transparent, 90%, black), url('/img/paris_bg.png') center / cover no-repeat;
+}
+
+.japan {
+    background: linear-gradient(transparent, 90%, black), url('/img/japan_bg.png') center / cover no-repeat;
+}
+
+.destinations__item-title {
+    font-size: 28px;
+    position: absolute;
+    bottom: 30px;
+    left: 30px;
 }
