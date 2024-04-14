@@ -1,0 +1,17 @@
+.btn {
+    width: 200px;
+    height: 60px;
+    background-color: #FF715B;
+    border: none;
+    cursor: pointer;
+}
+
+.btn--middle {
+    width: 195px;
+    height: 64px;
+}
+
+.btn--small {
+    width: 47px;
+    height: 47px;
+}
