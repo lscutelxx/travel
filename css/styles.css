@@ -1,0 +1,168 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    display: block;
+}
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    max-width: 1680px;
+    margin: 0 auto;
+}
+
+.header {
+    padding: 40px 0 35px 0;
+}
+
+.header__wrap {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__listitem {
+    display: flex;
+    list-style-type: none;
+    width: 432px;
+    justify-content: space-between;
+}
+
+.header__user {
+    display: flex;
+    align-items: center;
+}
+
+.header__account {
+    display: flex;
+    margin-right: 20px;
+    align-items: center;
+}
+
+.header__account-icon {
+    margin-right: 10px;
+    width: 18px;
+    height: 20px;
+}
+
+.header__divider {
+    height: 20px;
+    width: 1px;
+    background-color: #F1E0DD;
+    margin-right: 15px;
+}
+
+.header__search-icon {
+    width: 20px;
+    height: 20px;
+    object-fit: cover;
+}
+
+.main {
+    height: 1077px;
+}
+
+.main__wrapper {
+    position: relative;
+}
+
+.carousel__inner {
+    background: url('/img/main_bg.png') center / cover no-repeat;
+    height: 1000px;
+    object-fit: cover;
+    padding: 285px 135px;
+}
+
+.carousel__btn {
+    margin-top: 50px;
+}
+
+.main__nav {
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+}
+
+.nav__prev {
+    margin-right: 20px;
+}
+
+.nav__prev::before, .nav__next::before {
+    content: '';
+    display: block;
+    width: 10px;
+    height: 10px;
+    border-left: 2px solid white;
+    border-bottom: 2px solid white;
+    transform: translateX(175%) rotate(45deg);
+}
+
+.nav__next {
+    margin-right: 30px;
+}
+
+.nav__next::before {
+    border-top: 2px solid white;
+    border-right: 2px solid white;
+    border-bottom: none;
+    border-left: none;
+    transform: translateX(150%) rotate(45deg);
+}
+
+.nav__divider {
+    width: 234px;
+    height: 1px;
+    background-color: #F5EBE9;
+    margin-right: 30px;
+}
+
+.nav__currentpage {
+    font-size: 24px;
+}
+
+.main__order {
+    position: absolute;
+    display: flex;
+    width: 1185px;
+    height: 155px;
+    padding: 45px;
+    box-shadow: 5px 5px 50px lightgray;
+    right: 0;
+    bottom: 0;
+    background-color: white;
+    justify-content: space-between;
+}
+
+.main__listitem {
+    list-style-type: none;
+    display: flex;
+    gap: 60px;
+}
+
+.main__item {
+    position: relative;
+    width: 240px;
+    height: 65px;
+}
+
+.main__item::after {
+    content: '';
+    width: inherit;
+    height: 1px;
+    background-color: #F5EBE9;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+.main__input {
+    width: inherit;
+    border: none;
+    margin-top: 10px;
+}

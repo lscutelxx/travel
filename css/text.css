@@ -1,0 +1,38 @@
+.text {
+    font-family: noto;
+    font-size: 18px;
+    font-weight: 400;
+    color: black;
+}
+
+.text--white {
+    color: white
+}
+
+.text--btn {
+    font-weight: 500;
+}
+
+.text--red {
+    color: #FF715B
+}
+
+.text--clear {
+    font-weight: 300;
+    font-size: 16px;
+}
+
+.text--bold {
+    font-weight: 600;
+}
+
+.title {
+    font-family: noto;
+    font-size: 48px;
+    font-weight: 800;
+}
+
+.title--big {
+    font-size: 84px;
+    font-weight: 700;
+}
