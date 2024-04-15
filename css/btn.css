@@ -15,3 +15,8 @@
     width: 47px;
     height: 47px;
 }
+
+.btn--big {
+    width: 240px;
+    height: 64px;
+}
